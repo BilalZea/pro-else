@@ -54,7 +54,27 @@
 <body class="theme-red">
 
   
+  
+  
 
+  <div id="loader1"></div>
+  
+<style>
+
+#loader1{
+    background: #201e1e url(../assets/loader-1.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;  
+}
+
+</style>
+  
+  
+  
+  
   <!-- Back to top button -->
   <div class="btn-back_to_top">
     <span class="ti-arrow-up"></span>
@@ -911,6 +931,23 @@
 
   <!-- </div>  -->
   <!-- End main wrapper -->
+      
+      
+      
+      
+      
+      
+          <script>
+
+      var loader = document.getElementById("loader1");
+
+      window.addEventListener ("load", function(){
+      loader.style.display = "none";
+      })
+
+        </script>
+      
+      
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
